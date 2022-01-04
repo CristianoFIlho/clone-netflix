@@ -1,18 +1,31 @@
-import React, { useEffect } from "react";
+
+
+import React, { useEffect, useState } from "react";
+
 import tmdb from "./tmdb";
 
-// eslint-disable-next-line import/no-anonymous-default-export
+
+const [movieList, setMovieList] = useState({});
+
+
+
 export default () => {
   useEffect(() => {
     const loadAll = async () => {
       let list = await tmdb.getHomeList();
-      console.log(list);
+      setMovieList(list);
     };
     loadAll();
   }, []);
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="page">
+      <section className="lists">
+        {movieList.map(( item, key ) => (
+          <div>
+            {item.title}
+          </div>
+        ))}
+      </section>
     </div>
   );
 };
