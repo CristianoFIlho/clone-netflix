@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 const API_KEY = "1dfc43663132cfad8a67911d02ea7916";
 const BASE_URL = "https://api.themoviedb.org/3";
 
@@ -10,7 +11,7 @@ const basicFetch = async (endpoint) => {
 export default {
 
 
-    getHomeList: asysc () => {
+    getHomeList: async () => {
         return [
             {
                 slug: 'originals',
@@ -55,5 +56,4 @@ export default {
             },
         ];
     }
-
-
+}
