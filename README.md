@@ -5,21 +5,12 @@ Netflix Clone project
 
 ![netflixPrototype](https://user-images.githubusercontent.com/54041918/147015576-f194a66b-96ea-456a-be51-86195a91586c.gif)
 
-<p align="center">
-  <img alt="NetflixClone" title="NetflixClone" src=".github/logo.svg" width="400px" />
-</p>
+
 
 <h3 align="center" fontSize="60px">
   Clone of the streaming platform <a href="https://www.netflix.com/">Netflix</a>
 </h3>
 
-<p align="center">
-  <img alt="Application interface" src=".github/screenshot.png" width="100%">
-</p>
-
-<p align="center">
-  <img alt="Application working" src=".github/demo.gif" width="100%">
-</p>
 
 ## :rocket: Technologies
 
