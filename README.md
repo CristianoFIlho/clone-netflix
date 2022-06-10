@@ -3,7 +3,11 @@ Netflix Clone project
 
 ### Clone interface Netflix
 
-![netflixPrototype](https://user-images.githubusercontent.com/54041918/147015576-f194a66b-96ea-456a-be51-86195a91586c.gif)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/54041918/173088592-49eca842-cc79-4561-b482-a35df83b1cca.gif)
+
+
+
 
 
 
